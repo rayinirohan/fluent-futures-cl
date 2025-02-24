@@ -1,0 +1,898 @@
+body {
+    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    body {
+        background-image: url("your-image.png"); /* Replace with your image URL */
+        background-size: cover; /* or contain, auto, 100% 100%, etc. */
+        background-repeat: no-repeat; /* or repeat, repeat-x, repeat-y */
+        background-position: center; /* or top, bottom, left, right, specific coordinates */
+        opacity: 0.5; /* Adjust opacity from 0 (fully transparent) to 1 (fully opaque) */
+        width: 100%; /* Adjust width as needed (e.g., 50%, 80%, or a specific pixel value) */
+        height: auto; /* or a specific pixel value */
+        margin: 0; /* Optional: Remove default body margins */
+        /* Other body styles */
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px 20px; /* Consistent padding */
+    background-color: #fff;
+    border-bottom: 1px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+
+}
+
+.logo {
+    display: flex;
+    align-items: left;
+    width: 50px; /* Increase the width */
+}
+
+.logo img {
+    width: 1500px; /* Increase the width */
+    height: auto;
+    margin-right: 10px;
+    padding: 10px;
+    max-width: 100%; /* Prevent image from overflowing */
+}
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo-text h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.logo-text p {
+    margin: 0;
+    font-size: 12px;
+    color: #000;
+}
+
+.nav-links {
+    /* list-style: none; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.nav-links a:hover
+{
+    color: #4CAF50;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 30px 400px; */
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+/* ... (rest of your navbar styles) */
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 70vh; /* Ensure container takes full viewport height */
+    padding: 15px;
+    /* background: linear-gradient(to right, #0A6E86, #0C8367); */
+    background-image: url('Assets/bg-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img{
+    text-align: center;
+    display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
+.content {
+    color: white;
+    max-width: 40%; /* Adjust as needed */
+    margin-right: 20px; /* Space between content and form */
+}
+
+.content h1{
+    font-size: 46px;
+}
+
+.content p{
+    font-size: 23px;
+}
+/* ... (rest of your content styles) */
+
+.form-container {
+        background-color: rgba(255, 255, 255, 0.8); /* Reduced opacity (0.8) */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 25%; 
+    }
+
+.form-container h2 {
+    margin-top: 0;
+    text-align: center;
+    background-image: linear-gradient(to right, #0A6E86, #0C8367); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px; /* Space between elements in the row */
+    margin-bottom: 10px;
+}
+
+.form-container input,
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.terms-label {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    margin-bottom: 10px;
+}
+
+.terms-label input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle; /* Key: Align checkbox to middle */
+    width: 16px; /* Adjust size as needed */
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.form-container button {
+    background-color: #00bfa5;
+    color: white;
+    padding: 10px 15px; /* Add some horizontal padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center; /* Center the button */
+    width: auto; /* Allow button to take its natural width */
+}
+
+.features-section {
+    background-color: #dfe0e1; /* Light gray background for the section */
+    padding: 40px 20px; /* Add padding around the section */
+    text-align: center; /* Center the text within the section */
+}
+
+.features-title {
+    font-size: 2em; /* Adjust font size as needed */
+    margin-bottom: 20px;
+    color: linear-gradient(to right, #0A6E86, #0C8367); /* Dark gray color for the title */
+}
+
+.features-list {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Distribute items evenly */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        list-style: none; /* This line removes the bullet points */
+        padding: 0;         /* Optional: Remove default list padding */
+        margin: 0;          /* Optional: Remove default list margins */
+    
+}
+
+.feature-item {
+    width: 300px; /* Adjust width as needed */
+    margin-bottom: 20px; /* Add spacing between items */
+    position: relative; /* Important for positioning the overlay */
+    overflow: hidden; /* Prevents gradient from spilling out */
+}
+
+.feature-image {
+    width: 220px; /* Adjust image size as needed */
+    height: 220px;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Make images circular */
+    object-fit: cover; /* Ensure images cover the circle */
+    margin: 0 auto 1px; /* Center image and add spacing below */
+    display: block; /* Prevents image from affecting text alignment */
+    transition: transform 0.3s ease; /* Smooth scaling */
+    
+}
+
+.feature-text {
+    font-size: 1.4em; /* Adjust font size as needed */
+    color: linear-gradient(to right, #0A6E86, #0C8367); /* Dark gray color for the text */
+    text-align: center;
+    background-image: linear-gradient(to right, #0A6E86, #0C8367); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 780;
+}
+.features-title{
+    margin-top: 0;
+    text-align: center;
+    background-image: linear-gradient(80deg, rgba(18, 82, 160, 1) 0%, rgba(70, 164, 58, 1) 100%); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+}
+
+.pricing-title{
+    margin-top: 0;
+    text-align: center;
+    background-image: linear-gradient(80deg, rgba(18, 82, 160, 1) 0%, rgba(70, 164, 58, 1) 100%); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+}
+.pricing-plans {
+    
+    padding: 40px 0; /* Adjust vertical padding as needed */
+    background-color: #f8f9fa; /* Light background color */
+    text-align: center; /* Center the overall content */
+    
+}
+.pricing-button {
+
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
+    border: none; /* Removed the border */
+    padding: 12px 130px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    font-weight: 500; /* Semi-bold text */
+    cursor: pointer; /* Indicate it's clickable */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transitions */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow - adjust as needed */
+    display: inline-block; /* Needed for transform to work correctly */
+    width: auto; /* Or a specific width if you want */
+    text-align: center; /* Center the text horizontally */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.pricing-button:hover {
+    background-color: #1c2c44; /* Slightly darker background on hover */
+    transform: scale(1.02); /* Scale up slightly on hover */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25); /* More prominent shadow */
+    color: #dfe0e1;
+}
+
+.pricing-button:active { /* When the button is clicked */
+    background-color: #d0d0d0; /* Even darker background on click */
+    transform: scale(1); /* Return to original size on click */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15); /* Smaller shadow on click */
+}
+
+
+.pricing-plans h2 {
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-align: center;
+    background-image: linear-gradient(to right, #0A6E86, #0C8367); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.plans-wrapper {
+    display: flex;
+    justify-content: center; /* Center the plans horizontally */
+    gap: 30px; /* Space between the plans */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.plan {
+    width: 450px; /* Adjust width of each plan */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: left; /* Align text within plans to the left */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* For hover effect */
+}   
+
+.plan:hover {
+    transform: translateY(-5px); /* Move up slightly on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /* More prominent shadow */
+}
+
+.plan h3 {
+    margin-bottom: 20px;
+    color: #007bff; /* Blue heading color */
+    margin-top: 0;
+    text-align: center;
+    background-image: linear-gradient(to right, #0A6E86, #0C8367); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.plans-ul {
+    /* list-style:linear-gradient(to right, #0A6E86, #0C8367); */
+    padding: 0;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.plans-ul li::before{
+    content: "\2022";
+    color: #367c6f;
+    position: absolute;
+    font-size: 30px;
+    left: -20px;
+    top: -1px;
+}
+.plans-ul li {
+    /* margin-bottom: 10px; */
+     color: #555;  /* Slightly darker text color */
+    position: relative;
+    font-family: Arial;
+    font-size: 18px;
+    margin: 10px;
+    line-height: 20px;
+}
+
+.price {
+    font-size: 21px;
+    line-height: 30px;
+    color: #73787d;
+    background-color: #ecf0f4;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.container3 {
+    /* display: flex; */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 50vh; /* Ensure container takes full viewport height */
+    padding: 15px;
+    /* background: linear-gradient(to right, #0A6E86, #0C8367); */
+    background-image: url('Assets/pattern-6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.faculty{
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.faculty h2{
+    margin-top: 0;
+    text-align: center;
+    background-image: linear-gradient(80deg, rgba(18, 82, 160, 1) 0%, rgba(70, 164, 58, 1) 100%); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+}   
+
+.profile-container1 {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.profile-image {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-info {
+    flex: 2;
+    padding: 20px;
+}
+
+.profile-info p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.profile-info h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #007b5e;
+}
+
+.container2 {
+    /* display: flex; */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 70vh; /* Ensure container takes full viewport height */
+    padding: 15px;
+    background-color: white;
+}
+
+.achievers-section {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.achievers-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center !important;
+    background-image: linear-gradient(80deg, rgba(18, 82, 160, 1) 0%, rgba(70, 164, 58, 1) 100%); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    position: relative;
+}
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.marquee-content {
+    display: flex;
+    animation: marquee 50s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-200%); } /* Scroll 3 cards */
+}
+
+.achiever-card {
+    width: 300px;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    transition: transform 0.2s;
+    display: flex; /* Use flexbox for vertical alignment */
+    flex-direction: column; /* Stack image and details */
+    align-items: center; /* Center content horizontally */
+}
+
+.achiever-card:hover {
+    transform: scale(1.05);
+}
+
+.achiever-image {
+    width: 70%;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.achiever-details {
+    text-align: center; /* Center text within details */
+    flex-wrap: nowrap;
+}
+
+.achiever-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.achiever-details p {
+    font-size: 0.9em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .achiever-card {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    @keyframes marquee {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(calc(-100% * 4)); }
+    }
+}
+
+.container1 {
+    /* display: flex; */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 50vh; /* Ensure container takes full viewport height */
+    padding: 15px;
+    /* background: linear-gradient(to right, #0A6E86, #0C8367); */
+    background-image: url('Assets/pattern-6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venturi {
+    color: black;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.venturi-title{
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.venturi-title h2{
+    margin-top: 0;
+    text-align: center !important;
+    background-image: linear-gradient(80deg, rgba(18, 82, 160, 1) 0%, rgba(70, 164, 58, 1) 100%); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    position: relative;
+}
+
+.venturi-text {
+    font-size: 40px; /* Adjust font size as needed */
+    text-align: center;
+    color: #000;
+    background: -webkit-linear-gradient(80deg, rgba(18, 82, 160, 1) 0%, rgba(70, 164, 58, 1) 100%); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.venturi-text1 {
+    font-size: 15px; /* Adjust font size as needed */
+    text-align: center;
+    background-color: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 780;
+}
+
+.venturi-image {
+    width: 100px; /* Adjust image size as needed */
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Make images circular */
+    object-fit: cover; /* Ensure images cover the circle */
+    margin: 0 auto 1px; /* Center image and add spacing below */
+    display: block; /* Prevents image from affecting text alignment */
+    transition: transform 0.3s ease; /* Smooth scaling */
+    
+}
+
+.venturi-item {
+    width: 300px; /* Adjust width as needed */
+    margin-bottom: 20px; /* Add spacing between items */
+    position: relative; /* Important for positioning the overlay */
+    overflow: hidden; /* Prevents gradient from spilling out */
+}
+
+.venturi-list {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Distribute items evenly */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    list-style: none; /* This line removes the bullet points */
+    padding: 0;         /* Optional: Remove default list padding */
+    margin: 0;          /* Optional: Remove default list margins */
+    
+}
+
+.help-you {
+    background-color: white;
+    background-image: url(Assets/icon-object-1.png); /* Light gray background for the section */
+    padding: 30px 150px; /* Add padding around the section */
+    text-align: center; /* Center the text within the section */
+}
+
+.help-you-title{
+    margin-top: 0;
+    text-align: center;
+    background-image: linear-gradient(80deg, rgba(18, 82, 160, 1) 0%, rgba(70, 164, 58, 1) 100%); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: linear-gradient(to right, #0A6E86, #0C8367); /* Dark gray color for the title */
+}
+.help-you-list {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Distribute items evenly */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        list-style: none; /* This line removes the bullet points */
+        padding: 0;         /* Optional: Remove default list padding */
+        margin: 0;          /* Optional: Remove default list margins */
+    
+}
+
+.help-you-item {
+    width: 300px; /* Adjust width as needed */
+    margin-bottom: 20px; /* Add spacing between items */
+    position: relative; /* Important for positioning the overlay */
+    overflow: hidden; /* Prevents gradient from spilling out */
+}
+
+.help-you-image {
+    width: 220px; /* Adjust image size as needed */
+    height: 220px;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Make images circular */
+    object-fit: cover; /* Ensure images cover the circle */
+    margin: 0 auto 1px; /* Center image and add spacing below */
+    display: block; /* Prevents image from affecting text alignment */
+    transition: transform 0.3s ease; /* Smooth scaling */
+    
+}
+
+.help-you-text {
+    font-size: 1.4em; /* Adjust font size as needed */
+    color: linear-gradient(to right, #0A6E86, #0C8367); /* Dark gray color for the text */
+    text-align: center;
+    background-image: linear-gradient(to right, #0A6E86, #0C8367); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 780;
+}
+
+.help-you-text1 {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #73787d;
+    z-index: 2;
+    transition-behavior: normal;
+    transition-duration: 400ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    line-height: 25px;
+}
+
+.FREQUENTLY {
+    /* display: flex; */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 60vh; /* Ensure container takes full viewport height */
+    padding: 15px;
+    /* background: linear-gradient(to right, #0A6E86, #0C8367); */
+    background-image: url('Assets/access-consciousness-europe-classes-2024-cutout-web.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.FREQUENTLY-TITLE{
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center !important;
+}
+
+.FREQUENTLY-TITLE h2{
+    margin-top: 0;
+    text-align: center;
+    background-image: linear-gradient(80deg, rgba(18, 82, 160, 1) 0%, rgba(70, 164, 58, 1) 100%); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+} 
+
+.FREQUENTLY-container {
+    width: 80%; /* Adjust as needed */
+    max-width: 900px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevents rounded corners from being hidden */
+}
+
+.question {
+    padding: 20px;
+    border-bottom: 15px solid #eee; /* Light gray separator */
+    cursor: pointer;
+    position: relative; /* For positioning the arrow */
+    background-color: #316f8e;
+}
+
+.question h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #ffffff; /* Dark gray text */
+}
+
+.answer {
+    padding: 0 20px; /* Adjust left/right padding */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    background-color: white; /* Very light gray background */
+}
+
+.answer p {
+    margin: 10px 0;
+    color: black; /* Slightly lighter gray text */
+    background-color: white;
+}
+
+.question.active .answer {
+    max-height: 500px; /* Adjust as needed */
+}
+
+.question .arrow {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='%23666' d='M7 10l5 5 5-5z'/%3e%3c/svg%3e"); /* Replace with your arrow SVG or use a character like ▼ */
+    background-size: contain;
+    transition: transform 0.3s ease-in-out;
+}
+
+.question.active .arrow {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.container4 {
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 40vh; /* Ensure container takes full viewport height */
+    padding: 10px;
+    background-image: url('Assets/pattern-6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.terms-title{
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.terms-title h2{
+    margin-top: 50px;
+    text-align: center !important;
+    background-image: linear-gradient(80deg, rgba(18, 82, 160, 1) 0%, rgba(70, 164, 58, 1) 100%); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    position: relative;
+}
+
+.container5 {
+    width: 98%; /* Adjust as needed */
+    display: flex;
+    justify-content: space-between; /* Distribute columns evenly */
+    align-items: flex-start; /* Align items to the top */
+    background-color: transparent;
+    padding: 20px;
+}
+
+.column {
+    flex: 1; /* Each column takes equal space */
+    text-align: center; /* Center text within columns */
+    padding: 0; /* Add some padding around text */
+}
+
+.column h3 {
+    margin-bottom: 20px; /* Space between heading and text */
+    color: black; /* Dark gray text color */
+}
+
+.column p {
+    color: #666; /* Slightly lighter gray text */
+}
+
+footer {
+    background-color: #1a242f; /* Dark blue background */
+    color: rgb(174, 174, 174); /* White text color */
+    text-align: left;
+    padding: 20px; /* Adjust padding as needed */
+    font-size: 15px; /* Adjust font size as needed */
+    position: relative; /* For positioning the line */
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%; /* Adjust width of the line */
+    background-color: #333; /* Color of the line */
+    margin-bottom: 20px; /* Space between line and text */
+}
+
+footer p {
+    margin: 10px;
+    padding-left: 150px; /* Remove default paragraph margins */
+}
+
+/* Responsive adjustments (example) */
+@media (max-width: 768px) {
+    .container5 {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center horizontally */
+    }
+
+    .column {
+        text-align: center; /* Center text in stacked columns */
+        margin-bottom: 20px; /* Add space between stacked columns */
+    }
+}
+
+/* Add some responsive design */
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column; /* Stack profiles vertically */
+        align-items: center;
+    }
+}
+
+/* Responsive adjustments (example) */
+@media (max-width: 768px) {
+    .plan {
+        width: 90%; /* Make plans wider on smaller screens */
+        margin-bottom: 20px; /* Add spacing between wrapped plans */
+    }
+}
